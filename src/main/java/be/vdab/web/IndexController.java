@@ -1,0 +1,21 @@
+package be.vdab.web;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ *
+ * @author Dario.Jeurissen
+ *
+ */
+
+@Controller
+@RequestMapping("/")
+public class IndexController {
+	private static final String VIEW = "index";
+	@GetMapping
+	String index() {
+		return VIEW;
+	}
+}

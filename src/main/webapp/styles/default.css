@@ -1,0 +1,186 @@
+#header {
+text-align: center;
+background-image: url(../images/intro.jpg);
+witdh: 100%;
+height: auto;
+border-style: solid;
+border-width: 3px;
+}
+#headerimg{
+	witdh: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+
+#pageTitle {
+	margin-top: 0px;
+	color: white;
+}
+article {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+}
+
+article ul{
+	margin-left: 25%;
+} 
+article ul li{
+	text-align: left;
+	display: block;
+}
+
+.center{
+	text-align: center;
+}
+
+#wrapper{
+	width: 80%;
+	margin-left: 10%;
+}
+#smallwrapper{
+	width: 50%;
+	margin-left: 25%;
+}
+
+.mandje {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  margin-bottom: 1em;
+}
+.mandje td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+/* Column widths are based on these cells */
+.row-wijn {
+  width: 60;
+  text-align: center;
+}
+.row-prijs {
+  width: 10%;
+  text-align: center;
+}
+.row-aantal {
+  width: 10%;
+  text-align: center;
+}
+.row-tebetalen {
+  width: 20%;
+  text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+body {
+	background-color: #FFEC9F;
+	font-family: sans-serif;
+}
+
+h1 {
+	clear: both;
+}
+
+table,th,td {
+	margin: 0 auto;
+	border: 1px solid silver;
+	border-collapse: collapse;
+}
+
+thead tr,tfoot tr {
+	color: white;
+	background-color: gray;
+}
+
+td {
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #FAFAFA;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #E6E6E6;
+}
+
+label {
+	cursor: pointer;
+	display: block;
+	font-size: 1.1em;
+}
+
+div.fieldSet {
+	border: solid black thin;
+	width: 100%;
+}
+
+fieldset {
+	border:none;
+	margin: 0;
+	padding: 0;
+}
+
+legend {
+	font-size: 20px;
+	width: 100%;
+	padding: 5px;
+	
+}
+
+label.field	{
+	text-align: right;
+	float: left;
+	font-weight: bold;
+	width: 10em;
+	padding-right: 0.5em;
+}
+
+input.textbox-300{
+	width: 300px;
+	float: left;
+}
+
+fieldset p {
+	clear: both;
+}
+
+label span, .required {
+	color: red;
+	font-weight: bold;
+}
+
+span {
+	color: red;
+	display: block;
+	clear: both;
+	text-align:center;
+}
+
+span:empty {
+	display: none;
+}
+
+p#bestelwijze{
+	text-align: center;
+	margin: 0;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
