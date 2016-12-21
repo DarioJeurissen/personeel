@@ -37,9 +37,7 @@ public class Werknemer implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO) //Changed from Identity to auto, to avoid error that made chefid not able to be null
 	private long id;
-	@NotNull
 	private String familienaam;
-	@NotNull
 	private String voornaam;
 	@Email
 	private String email;

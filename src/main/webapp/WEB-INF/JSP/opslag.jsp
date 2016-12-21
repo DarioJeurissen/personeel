@@ -16,7 +16,7 @@
 	<form:form action='${opslag}' commandName='opslagForm' method='post'>
 		<form:label path='bonus'>Opslag:
 		<form:errors path='bonus'/></form:label>
-		<form:input path='bonus' autofocus='autofocus' required='required' min='1'/>
+		<form:input path='bonus' autofocus='autofocus' required='required' min='1' />
 		<p><input type='submit' value='Opslag'></p>
 	</form:form>
 	${error}
