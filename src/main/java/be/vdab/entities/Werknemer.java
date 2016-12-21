@@ -17,6 +17,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Version;
 import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Email;
 
@@ -35,10 +36,13 @@ public class Werknemer implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO) //Changed from Identity to auto, to avoid error that made chefid not able to be null
 	private long id;
+	@NotNull
 	private String familienaam;
+	@NotNull
 	private String voornaam;
 	@Email
 	private String email;
+	@NotNull
 	private BigDecimal salaris;
 	@Version
 	private long versie;
