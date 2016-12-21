@@ -20,8 +20,6 @@ import javax.validation.Valid;
 
 import org.hibernate.validator.constraints.Email;
 
-import com.sun.istack.NotNull;
-
 import be.vdab.util.HelperClass;
 
 /**
